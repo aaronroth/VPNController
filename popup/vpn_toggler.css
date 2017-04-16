@@ -1,12 +1,21 @@
 .button {
-  background-color: #E5F2F2;
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
-  font-size: 18pt;
-  cursor: pointer;
+    background-color: #E5F2F2;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18pt;
+    cursor: pointer;
 }
 
 .button:hover {
-  background-color: #CFF2F2;
+    background-color: #CFF2F2;
+}
+
+#status-box {
+    background-color: green;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18pt;
 }
