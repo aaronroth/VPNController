@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "VPN Controller",
+  "version": "1.0",
+
+  "description": "Allows you to turn the home network VPN on and off.",
+  "icons": {
+    "48": "icons/whole_pizza.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/pizza_slice.png",
+    "default_title": "VPN Controller",
+    "default_popup": "popup/vpn_toggler.html"
+  }
+
+}
