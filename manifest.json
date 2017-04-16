@@ -1,5 +1,4 @@
 {
-
   "manifest_version": 2,
   "name": "VPN Controller",
   "version": "1.0",
@@ -18,5 +17,4 @@
     "default_title": "VPN Controller",
     "default_popup": "popup/vpn_toggler.html"
   }
-
 }
