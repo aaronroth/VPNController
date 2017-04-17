@@ -7,7 +7,7 @@
             "id": "vpncontroller@example.com"
         }
   },
-  "description": "Allows you to turn the home network VPN on and off.",
+  "description": "Allows toggling the home network VPN on and off.",
   "homepage_url": "https://github.com/aaronroth/VPNController",
   "icons": {
     "48": "icons/whole_pizza.png"
