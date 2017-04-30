@@ -33,7 +33,7 @@ function updateStatus(status_boolean) {
     
 // POSTs true or false to VPN to change state.
 function vpnSwitcher(vpn_state) {
-    var url = "http://mini/cgi-bin/pia-client-enabled/";
+    var url = "http://mini/cgi-bin/pia.sh/";
     var param = "enabled=" + vpn_state;
 
     var http = new XMLHttpRequest();
@@ -48,11 +48,11 @@ function vpnSwitcher(vpn_state) {
     
     // Update status after a delay to allow POST request to go through.
     window.setTimeout(function() {
-        updateStatus(getAndParse("http://mini/cgi-bin/pia-client-enabled/"));
+        updateStatus(getAndParse("http://mini/cgi-bin/pia.sh/"));
     }, 100);
 }
 
-// Add event listeners to the buttons.
+// Add event listeners to the buttons.cgi-bin/pia.sh/
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("button")) {
     var chosenState = e.target.textContent;
@@ -67,4 +67,4 @@ document.addEventListener("click", (e) => {
 });
 
 // Update the current VPN status when the popup first loads.
-updateStatus(getAndParse("http://mini/cgi-bin/pia-client-enabled/"));
+updateStatus(getAndParse("http://mini/cgi-bin/pia.sh/"));
